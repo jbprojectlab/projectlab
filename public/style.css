@@ -23,7 +23,7 @@ a:link {
   color: white;
   display: flex;
   margin-top: .6em;
-  font-size: 2em;
+  font-size: 2.5em;
   font-weight: lighter;
   text-shadow: -1px 0 #db651c, 0 1px #db651c, 1px 0 #db651c, 0 -1px #db651c;
 }
@@ -110,13 +110,14 @@ a:link {
 
 #projects-header-container {
   align-items: center;
+  margin-top: 2em;
 }
 
 #projects-header {
   justify-content: center;
   color: #db651c;
   display: flex;
-  margin-top: 1.2em;
+  margin-top: .2em;
   margin-bottom: .2em;
   font-size: 3em;
   font-weight: lighter;
@@ -131,14 +132,27 @@ a:link {
 }
 
 .project-list {
+  display: flex;
   margin: 1em;
   padding: 2em;
   width: 70vw;
-  color: white;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
   border: 1px solid #3c3e42;
+}
+
+.project-title {
+  display: flex;
+  height: 2em;
+  width: 10em;
+  color: #3c3e42;
+  background-color: white;
+  border: 2px solid black;
+  padding: 0px 25px 0px 25px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
   font-size: 2.5em;
-  text-shadow: -1px 0 #3c3e42, 0 1px #3c3e42, 1px 0 #3c3e42, 0 -1px #3c3e42;
 }
 
 #steppr {
@@ -148,9 +162,75 @@ a:link {
 
 #sockr {
   background-image: url('https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX9878837.jpg');
-  text-shadow: -1px 0 #3c3e42, 0 1px #3c3e42, 1px 0 #3c3e42, 0 -1px #3c3e42;
 }
 
 #jamspace {
-  background-image: url('https://static1.squarespace.com/static/542b3786e4b0a8c50e8bbec4/t/5760b93fa3360c9fc6bc09d4/1465956688886/HendrixRental_Banner4.jpg?format=1500w');
+  background-image: url('https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/467064/1160/772/m1/fpnw/wm1/i0435-.jpg?1430378113&s=49e6a55f98b02e938593beadf51f7a9b');
+}
+
+.projects-header-segments {
+  display: flex;
+  stroke: #d8d3d2;
+  stroke-width: 2;
+  padding-bottom: 0;
+  height: 3em;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-segments {
+  display: flex;
+  stroke: #d8d3d2;
+  stroke-width: 2;
+  margin-top: 1.5em;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#button-top-segment {
+  height: 3em;
+  margin-bottom: .9em;
+}
+
+#button-bottom-segment {
+  height: 3em;
+  margin-top: 1em;
+}
+
+#resume-button {
+  margin: 0;
+  padding: 0;
+  height: 4em;
+  width: 16em;
+  color: white;
+  display: flex;
+  font-size: 1.5em;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #db651c;
+}
+
+#contact-header {
+  justify-content: center;
+  color: #db651c;
+  display: flex;
+  margin-top: .3em;
+  margin-bottom: .2em;
+  font-size: 3.5em;
+  font-weight: lighter;
+  text-shadow: -1px 0 #3c3e42, 0 1px #3c3e42, 1px 0 #3c3e42, 0 -1px #3c3e42;
+}
+
+.contact-header-segments {
+  display: flex;
+  stroke: #d8d3d2;
+  stroke-width: 2;
+  padding-bottom: 0;
+  height: 3em;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
