@@ -4,13 +4,47 @@ body {
 
 #header {
   display: flex;
-  height: 10vh;
+  height: 16vh;
+  min-height: 180px;
+  font-size: 1.75em;
   align-items: center;
   justify-content: center;
-  background-color: #484646;
+  flex-direction: column;
+  background-color: #493e36;
 }
 
 #name {
   color: white;
+  display: flex;
+  margin-top: .6em;
 }
 
+#title {
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 1.6em;
+  color: white;
+  display: flex;
+  font-size: 1em;
+  font-family: 'Musicnet'
+}
+
+#quote-container {
+  height: 12vh;
+  display: flex;
+  min-height: 140px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #db651c;
+}
+
+#quote {
+  color: white;
+  margin-top: .4em
+}
+
+#author {
+  color: white;
+  margin-top: .2em
+}
