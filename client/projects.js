@@ -4,9 +4,15 @@ export const Projects = props => {
   return (
     <Fragment>
       <div id='project-container'>
-        <a id='jamspace' class='project-list' href='http://www.jamspace.tv'>JAMSPACE.TV</a>
-        <a id='steppr' class='project-list' href='http://www.steppr.io'>steppr.io</a>
-        <a id='sockr' class='project-list' href='https://sockr.herokuapp.com'>Sockr</a>
+        <a id='jamspace' className='project-list' href='http://www.jamspace.tv'>
+          <h2 className='project-title'>JAMSPACE.TV</h2>
+        </a>
+        <a id='steppr' className='project-list' href='http://www.steppr.io'>
+          <h2 className='project-title'>steppr.io</h2>
+        </a>
+        <a id='sockr' className='project-list' href='https://sockr.herokuapp.com'>
+          <h2 className='project-title'>Sockr</h2>
+        </a>
       </div>      
     </Fragment>
   )
