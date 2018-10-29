@@ -4,10 +4,11 @@ export const Email = props => {
   return (
     <Fragment>
       <div id='email-container'>  
-        <button id='email-button'>
+        <a id='email-button' href='mailto:james@jbprojectlab.com'>
           <i id='envelope-icon' className="fa fa-envelope-o"></i>
-        </button>
-        <h4 id='email-address'>james@jbprojectlab.com</h4>
+        </a>
+        <a id='email-address' href='mailto:james@jbprojectlab.com'>
+          james@jbprojectlab.com</a>
       </div>  
     </Fragment>
   )

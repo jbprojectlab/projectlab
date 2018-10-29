@@ -205,8 +205,8 @@ svg {
 #resume-button {
   margin: 0;
   padding: 0;
-  height: 4em;
-  width: 16em;
+  height: 3em;
+  width: 12em;
   color: white;
   display: flex;
   font-size: 1.5em;
@@ -244,6 +244,7 @@ svg {
 }
 
 #email-button {
+  margin-bottom: 1em;
   margin-top: 1em;
   padding: 0;
   height: 3.2em;
