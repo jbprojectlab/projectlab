@@ -1,0 +1,16 @@
+body {
+  font-family: 'Paloseco';
+}
+
+#header {
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #484646;
+}
+
+#name {
+  color: white;
+}
+
