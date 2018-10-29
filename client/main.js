@@ -3,6 +3,8 @@ import {Route} from 'react-router-dom'
 import {Name} from './name'
 import {Quote} from './quote'
 import {About} from './about'
+import {ProjectsHeader} from './projects-header'
+import {Projects} from './projects'
 
 export default class Main extends Component {
   render () {
@@ -11,6 +13,8 @@ export default class Main extends Component {
         <Name />
         <Quote />
         <About />
+        <ProjectsHeader />
+        <Projects />
       </div>
     )
   }
