@@ -8,10 +8,14 @@ a:link {
     text-decoration: none;
 }
 
+svg {
+  margin-right: 1.2em;
+}
+
 #header {
   display: flex;
-  height: 16vh;
-  min-height: 180px;
+  height: 22vh;
+  min-height: 22vh;
   font-size: 1.75em;
   align-items: center;
   justify-content: center;
@@ -24,12 +28,11 @@ a:link {
   display: flex;
   margin-top: .6em;
   font-size: 2.5em;
-  font-weight: lighter;
   text-shadow: -1px 0 #db651c, 0 1px #db651c, 1px 0 #db651c, 0 -1px #db651c;
 }
 
 #title {
-  margin-top: 0;
+  margin-top: .2em;
   padding-top: 0;
   margin-bottom: 1.6em;
   color: white;
@@ -39,9 +42,9 @@ a:link {
 }
 
 #quote-container {
-  height: 12vh;
+  height: 15vh;
   display: flex;
-  min-height: 140px;
+  min-height: 15vh;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -50,12 +53,13 @@ a:link {
 
 #quote {
   color: white;
-  margin-top: .4em
+  margin-top: .8em;
+  font-weight: lighter;
 }
 
 #author {
   color: white;
-  margin-top: .2em
+  margin-top: .05em
 }
 
 #about-container {
@@ -78,7 +82,8 @@ a:link {
   margin: 0;
   padding: 1em;
   max-width: 25%;
-  margin-left: 1.6em;
+  margin-top: .2em;
+  margin-left: 6em;
   padding-bottom: .3em;
   font-weight: lighter;
   border-bottom: 1px solid #3c3e42;
@@ -86,11 +91,11 @@ a:link {
 
 #about-text {
   color: #3c3e42;
-  font-size: .57em;
+  font-size: .60em;
   margin-top: 1.4em;
-  margin-left: 2.8em;
+  margin-left: 8em;
   text-align: justify;
-  line-height: 1.7em;
+  line-height: 1.6em;
 }
 
 #photo-container {
@@ -119,9 +124,7 @@ a:link {
   display: flex;
   margin-top: .2em;
   margin-bottom: .2em;
-  font-size: 3em;
-  font-weight: lighter;
-  text-shadow: -1px 0 #3c3e42, 0 1px #3c3e42, 1px 0 #3c3e42, 0 -1px #3c3e42;
+  font-size: 3.5em;
 }
 
 #project-container {
@@ -135,7 +138,7 @@ a:link {
   display: flex;
   margin: 1em;
   padding: 2em;
-  width: 70vw;
+  width: 80vw;
   align-items: center;
   justify-content: center;
   border: 1px solid #3c3e42;
@@ -219,9 +222,7 @@ a:link {
   display: flex;
   margin-top: .3em;
   margin-bottom: .2em;
-  font-size: 3.5em;
-  font-weight: lighter;
-  text-shadow: -1px 0 #3c3e42, 0 1px #3c3e42, 1px 0 #3c3e42, 0 -1px #3c3e42;
+  font-size: 3em;
 }
 
 .contact-header-segments {
@@ -233,4 +234,75 @@ a:link {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+}
+
+#email-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#email-button {
+  margin-top: 1em;
+  padding: 0;
+  height: 3.2em;
+  width: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d8d3d2;
+}
+
+#envelope-icon {
+  color: #3c3e42;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+#email-address {
+  color: #3c3e42;
+  font-size: 1.5em;
+  font-weight: lighter;
+  margin-top: .5em;
+}
+
+#social-media-nav {
+  display: flex;
+  height: 14vh;
+  min-height: 14vh;
+  font-size: 1.75em;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 1.5em;
+  background-color: #db651c;
+}
+
+#github-icon {
+  height: 2em;
+  width: 2em;
+  margin-left: 2.2em;
+}
+
+#linkedin-icon {
+  height: 4em;
+  width: 4em;
+  fill: white;
+}
+
+#copyright-nav {
+  color: white;
+  display: flex;
+  height: 7vh;
+  min-height: 7vh;
+  font-size: 1.75em;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #3c3e42;
+}
+
+#copyright-text {
+  font-weight: lighter;
 }

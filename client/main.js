@@ -6,6 +6,8 @@ import {About} from './about'
 import {ProjectsHeader} from './projects-header'
 import {Projects} from './projects'
 import {Info} from './info'
+import {SocialMediaNav} from './social-media-nav'
+import {Copyright} from './copyright'
 
 export default class Main extends Component {
   render () {
@@ -17,6 +19,8 @@ export default class Main extends Component {
         <ProjectsHeader />
         <Projects />
         <Info />
+        <SocialMediaNav />
+        <Copyright />
       </div>
     )
   }

@@ -1,6 +1,7 @@
 import React, {Fragment} from 'react'
 import {ResumeButton} from './resume-button'
 import {ContactHeader} from './contact-header'
+import {Email} from './email'
 
 export const Info = props => {
   return (
@@ -14,6 +15,7 @@ export const Info = props => {
           <line x1='20' y1='20' x2='130' y2='20' />
         </svg>
         <ContactHeader />
+        <Email />
       </div>        
     </Fragment>
   )
