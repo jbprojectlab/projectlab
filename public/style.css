@@ -160,7 +160,7 @@ svg {
 
 #steppr {
   background-size: 18em;
-  background-image: url('./images/steppr_black.png');
+  background-image: url('./src/steppr_black.png');
 }
 
 #sockr {
