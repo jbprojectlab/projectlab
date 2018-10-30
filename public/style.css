@@ -12,10 +12,31 @@ svg {
   margin-right: 1.2em;
 }
 
+button:focus {outline:0;}
+button:hover {box-shadow: 0px 0px 6px #db651c;}
+
+.close {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 20px;
+  right: 20px;
+  opacity: 0.8;
+  transition: all 200ms;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #666;
+  &:hover {
+    opacity: 1;
+  }
+}
+
 #header {
   display: flex;
   height: 22vh;
-  min-height: 22vh;
+  min-height: 180px;
+  max-height: 200px;
   font-size: 1.75em;
   align-items: center;
   justify-content: center;
@@ -28,6 +49,7 @@ svg {
   display: flex;
   margin-top: .6em;
   font-size: 2.5em;
+  font-weight: lighter;
   text-shadow: -1px 0 #db651c, 0 1px #db651c, 1px 0 #db651c, 0 -1px #db651c;
 }
 
@@ -38,13 +60,15 @@ svg {
   color: white;
   display: flex;
   font-size: 1em;
-  font-family: 'Musicnet'
+  font-weight: lighter;
+/*  font-family: 'Musicnet'*/
 }
 
 #quote-container {
   height: 15vh;
   display: flex;
-  min-height: 15vh;
+  min-height: 100px;
+  max-height: 160px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -72,8 +96,8 @@ svg {
 #about-text-container {
   min-height: 28vh;
   min-width: 60vw;
-  width: 54vw;
-  font-size: 1.4em;
+  width: 48vw;
+  font-size: 1.6em;
   display: inline-block;
   background-color: #d8d3d2;
 }
@@ -82,8 +106,8 @@ svg {
   margin: 0;
   padding: 1em;
   max-width: 25%;
-  margin-top: .2em;
-  margin-left: 6em;
+  margin-top: 1.3em;
+  margin-left: 5em;
   padding-bottom: .3em;
   font-weight: lighter;
   border-bottom: 1px solid #3c3e42;
@@ -93,7 +117,8 @@ svg {
   color: #3c3e42;
   font-size: .60em;
   margin-top: 1.4em;
-  margin-left: 8em;
+  margin-left: 6.6em;
+  margin-bottom: 2.6em;
   text-align: justify;
   line-height: 1.6em;
 }
@@ -101,6 +126,7 @@ svg {
 #photo-container {
   align-items: center;
   display: inline-block;
+  flex-grow;
   justify-content: center;
   padding-right: 4em;
   padding-bottom: 4em;
@@ -111,6 +137,7 @@ svg {
   max-height: 32vh;
   margin-left: 8em;
   margin-top: 4em;
+  border: 3px solid #db651c;
 }
 
 #projects-header-container {
@@ -136,9 +163,10 @@ svg {
 
 .project-list {
   display: flex;
-  margin: 1em;
-  padding: 2em;
-  width: 80vw;
+  margin: 2em;
+  margin-top: 1em;
+  padding: 4em;
+  width: 85vw;
   align-items: center;
   justify-content: center;
   border: 1px solid #3c3e42;
@@ -147,7 +175,7 @@ svg {
 .project-title {
   display: flex;
   height: 2em;
-  width: 10em;
+  width: 8em;
   color: #3c3e42;
   background-color: white;
   border: 2px solid black;
@@ -155,12 +183,12 @@ svg {
   text-align: center;
   align-items: center;
   justify-content: center;
-  font-size: 2.5em;
+  font-size: 3em;
 }
 
 #steppr {
   background-size: 18em;
-  background-image: url('./images/steppr_black.png');
+  background-image: url('./src/steppr_black.png');
 }
 
 #sockr {
@@ -205,8 +233,8 @@ svg {
 #resume-button {
   margin: 0;
   padding: 0;
-  height: 4em;
-  width: 16em;
+  height: 3em;
+  width: 12em;
   color: white;
   display: flex;
   font-size: 1.5em;
@@ -244,6 +272,7 @@ svg {
 }
 
 #email-button {
+  margin-bottom: 1em;
   margin-top: 1em;
   padding: 0;
   height: 3.2em;
@@ -269,8 +298,8 @@ svg {
 
 #social-media-nav {
   display: flex;
-  height: 14vh;
-  min-height: 14vh;
+  height: 13vh;
+  min-height: 100px;
   font-size: 1.75em;
   align-items: center;
   justify-content: center;
@@ -295,7 +324,7 @@ svg {
   color: white;
   display: flex;
   height: 7vh;
-  min-height: 7vh;
+  min-height: 80px;
   font-size: 1.75em;
   align-items: center;
   justify-content: center;
@@ -304,5 +333,130 @@ svg {
 }
 
 #copyright-text {
+  margin: 0;
   font-weight: lighter;
 }
+
+.project-modal {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  min-width: 100vw;
+}
+
+.popup-overlay {
+  min-width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.popup-content {
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#jamspace-modal {
+  outline: 20em solid #3c3e42;
+  background-image: url('https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/467064/1160/772/m1/fpnw/wm1/i0435-.jpg?1430378113&s=49e6a55f98b02e938593beadf51f7a9b');
+}
+
+#steppr-modal {
+  outline: 20em solid #db651c;
+  background-image-size: 300px;
+  background-image: url('./src/steppr_black.png');
+}
+
+#sockr-modal {
+  outline: 20em solid #3c3e42;
+  background-image: url('https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX9878837.jpg');
+}
+
+.project-description {
+  display: flex;
+  min-height: 100vh;
+  margin-left: 50vw;
+  padding-top: 10.2em;
+  flex-direction: column;
+}
+
+#jamspace-description {
+  background-color: #3c3e42;
+}
+
+#steppr-description {
+  background-color: #db651c;
+}
+
+#sockr-description {
+  background-color: #3c3e42;
+}
+
+.project-description-header {
+  color: white;
+  font-size: 2em;
+  padding-bottom: 0;
+  position: relative;
+  margin-left: 2em;
+  border-bottom: 1px solid white;
+}
+
+.project-description-text {
+  margin: 4em;
+  margin-top: .4em;
+  margin-bottom: .4em;
+  color: #d8d3d2;
+}
+
+.project-description-icons {
+  display: flex-column;
+  margin-left: 2.3em;
+  padding-left: 0;
+  align-items: center;
+}
+
+.project-github-icons {
+  color: #d8d3d2;
+  height: 3.4em;
+  width: 3.4em;
+  margin-top: 0em;
+  margin-left: .15em; 
+}
+
+.project-description-links {
+  display: flex;
+  margin-top: 0;
+  margin-left: 1.6em;
+  flex-direction: column;
+}
+
+.project-url-container {
+  color: white;
+  margin-left: 2.2em;
+  margin-bottom: 1.4em;
+  margin-top: 2em;
+}
+
+.project-url {
+  color: white;
+  font-size: 1.3em;
+  margin-left: .35em;
+  padding-bottom: 8em;
+}
+
+.youtube-icon {
+  color: #d8d3d2;
+  height: 2em;
+  padding-right: 60em;
+  margin-bottom: 1.2em;
+  margin-top: .2em;
+  padding-left: 0;
+}
+
+.close {
+  cursor: pointer;
+}
+
+.project-url:hover {text-shadow: 0px 0px 3px #d8d3d2;}
+.youtube-icon:hover {border-image: 0px 0px 3px #d8d3d2;}
+.project-github-icons:hover {text-shadow: 0px 0px 3px #d8d3d2;}
