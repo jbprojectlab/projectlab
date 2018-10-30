@@ -3,7 +3,7 @@ import React from 'react'
 export const SocialMediaNav = props => {
   return (
     <div id='social-media-nav'>
-      <a href='http://github.com/james-byrd'>
+      <a href='https://github.com/jbprojectlab'>
         <img id='github-icon' src='https://jriccardi.com/github-icon.svg'></img>
       </a>
       <a href='https://www.linkedin.com/in/james-s-byrd/'>

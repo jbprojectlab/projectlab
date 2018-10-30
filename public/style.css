@@ -49,6 +49,7 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
   display: flex;
   margin-top: .6em;
   font-size: 2.5em;
+  font-weight: lighter;
   text-shadow: -1px 0 #db651c, 0 1px #db651c, 1px 0 #db651c, 0 -1px #db651c;
 }
 
@@ -59,13 +60,15 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
   color: white;
   display: flex;
   font-size: 1em;
-  font-family: 'Musicnet'
+  font-weight: lighter;
+/*  font-family: 'Musicnet'*/
 }
 
 #quote-container {
   height: 15vh;
   display: flex;
-  min-height: 95px;
+  min-height: 100px;
+  max-height: 160px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -94,7 +97,7 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
   min-height: 28vh;
   min-width: 60vw;
   width: 48vw;
-  font-size: 1.4em;
+  font-size: 1.6em;
   display: inline-block;
   background-color: #d8d3d2;
 }
@@ -103,7 +106,7 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
   margin: 0;
   padding: 1em;
   max-width: 25%;
-  margin-top: .2em;
+  margin-top: 1.3em;
   margin-left: 5em;
   padding-bottom: .3em;
   font-weight: lighter;
@@ -123,6 +126,7 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
 #photo-container {
   align-items: center;
   display: inline-block;
+  flex-grow;
   justify-content: center;
   padding-right: 4em;
   padding-bottom: 4em;
@@ -133,6 +137,7 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
   max-height: 32vh;
   margin-left: 8em;
   margin-top: 4em;
+  border: 3px solid #db651c;
 }
 
 #projects-header-container {
@@ -159,6 +164,7 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
 .project-list {
   display: flex;
   margin: 2em;
+  margin-top: 1em;
   padding: 4em;
   width: 85vw;
   align-items: center;
@@ -292,8 +298,8 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
 
 #social-media-nav {
   display: flex;
-  height: 14vh;
-  min-height: 14vh;
+  height: 13vh;
+  min-height: 100px;
   font-size: 1.75em;
   align-items: center;
   justify-content: center;
@@ -318,7 +324,7 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
   color: white;
   display: flex;
   height: 7vh;
-  min-height: 7vh;
+  min-height: 80px;
   font-size: 1.75em;
   align-items: center;
   justify-content: center;
@@ -327,6 +333,7 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
 }
 
 #copyright-text {
+  margin: 0;
   font-weight: lighter;
 }
 
@@ -356,7 +363,7 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
 
 #steppr-modal {
   outline: 20em solid #db651c;
-  background-image-size: 60%;
+  background-image-size: 300px;
   background-image: url('./src/steppr_black.png');
 }
 
@@ -368,22 +375,20 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
 .project-description {
   display: flex;
   min-height: 100vh;
+  margin-left: 50vw;
   padding-top: 10.2em;
   flex-direction: column;
 }
 
 #jamspace-description {
-  margin-left: 50vw;
   background-color: #3c3e42;
 }
 
 #steppr-description {
-  margin-right: 50vw;
   background-color: #db651c;
 }
 
 #sockr-description {
-  margin-left: 50vw;
   background-color: #3c3e42;
 }
 
@@ -410,13 +415,15 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
   align-items: center;
 }
 
-#jamspace-github-icon {
+.project-github-icons {
+  color: #d8d3d2;
   height: 3.4em;
   width: 3.4em;
-  margin-left: .3em;
+  margin-top: 0em;
+  margin-left: .15em; 
 }
 
-#jamspace-description-links {
+.project-description-links {
   display: flex;
   margin-top: 0;
   margin-left: 1.6em;
@@ -430,24 +437,26 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
   margin-top: 2em;
 }
 
-#jamspace-url {
+.project-url {
   color: white;
   font-size: 1.3em;
-  margin-left: .6em;
+  margin-left: .35em;
   padding-bottom: 8em;
 }
 
 .youtube-icon {
-  display: flex;
-  color: white;
+  color: #d8d3d2;
   height: 2em;
-  margin-bottom: 1.4em;
-}
-
-#jamspace-youtube-icon {
-  margin-left: .2em;
+  padding-right: 60em;
+  margin-bottom: 1.2em;
+  margin-top: .2em;
+  padding-left: 0;
 }
 
 .close {
   cursor: pointer;
 }
+
+.project-url:hover {text-shadow: 0px 0px 3px #d8d3d2;}
+.youtube-icon:hover {border-image: 0px 0px 3px #d8d3d2;}
+.project-github-icons:hover {text-shadow: 0px 0px 3px #d8d3d2;}
