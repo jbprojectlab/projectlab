@@ -374,7 +374,6 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
   color: white;
   font-size: 2em;
   padding-bottom: 0;
-/*  margin-bottom: 22em;*/
   position: relative;
   margin-left: 2em;
   border-bottom: 1px solid white;
@@ -389,7 +388,7 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
 
 .project-description-icons {
   display: inline-flex;
-  margin-left: 2.2em;
+  margin-left: 2.3em;
   padding-left: 0;
   align-items: center;
   border-bottom: 1px solid white;
@@ -404,7 +403,7 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
 #jamspace-description-links {
   display: flex;
   margin-top: 0;
-  margin-left: 24em;
+  margin-left: 1.6em;
   flex-direction: column;
 }
 
@@ -412,14 +411,19 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
   color: white;
   margin-left: 2.2em;
   margin-bottom: 1.4em;
-  margin-top: .4em;
+  margin-top: 2em;
   border-bottom: 1px solid white;
 }
 
+/*.project-url {
+  margin-bottom: 4em;
+}*/
+
 #jamspace-url {
   color: white;
+  font-size: 1.3em;
   margin-left: .6em;
-  padding-bottom: 4em;
+  padding-bottom: 8em;
 }
 
 .youtube-icon {

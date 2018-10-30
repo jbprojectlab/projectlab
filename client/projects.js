@@ -29,11 +29,13 @@ export const Projects = props => {
                   <a id='jamspace-url' className='project-url' href='http://www.jamspace.tv'>jamspace.tv</a>
                 </div>
                 <div id='jamspace-description-icons' className='project-description-icons'>
-                  <a id='jamspace-github' className='project-github' href='http://github.com/jamspacetv'>
+                  <a id='jamspace-github' className='project-github' href='https://github.com/Fullstack-JamSpace/JamSpaceTV'>
                     <img id='jamspace-github-icon' src='https://jriccardi.com/github-icon.svg'></img>
                   </a>
-                  <a id='jamspace-youtube' className='project-youtube' href='http://github.com/jamspacetv'>
-                    <img id='jamspace-youtube-icon' className='youtube-icon' src='https://basejump.co.uk/wp-content/uploads/2016/03/youtube-logo.png'></img>
+                  <a id='jamspace-youtube' className='project-youtube' href='https://www.youtube.com/watch?v=qcCDYTLqq5w&amp=&index=14&amp=&t=0s'>
+                    <img id='jamspace-youtube-icon' className='youtube-icon'
+                      src='https://basejump.co.uk/wp-content/uploads/2016/03/youtube-logo.png'>
+                    </img>
                   </a>
                 </div>
               </div>
