@@ -12,10 +12,14 @@ svg {
   margin-right: 1.2em;
 }
 
+button:focus {outline:0;}
+button:hover {box-shadow: 0px 0px 6px #db651c;}
+
 #header {
   display: flex;
   height: 22vh;
-  min-height: 22vh;
+  min-height: 180px;
+  max-height: 200px;
   font-size: 1.75em;
   align-items: center;
   justify-content: center;
@@ -44,7 +48,7 @@ svg {
 #quote-container {
   height: 15vh;
   display: flex;
-  min-height: 15vh;
+  min-height: 95px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -72,7 +76,7 @@ svg {
 #about-text-container {
   min-height: 28vh;
   min-width: 60vw;
-  width: 54vw;
+  width: 48vw;
   font-size: 1.4em;
   display: inline-block;
   background-color: #d8d3d2;
@@ -83,7 +87,7 @@ svg {
   padding: 1em;
   max-width: 25%;
   margin-top: .2em;
-  margin-left: 6em;
+  margin-left: 5em;
   padding-bottom: .3em;
   font-weight: lighter;
   border-bottom: 1px solid #3c3e42;
@@ -93,7 +97,8 @@ svg {
   color: #3c3e42;
   font-size: .60em;
   margin-top: 1.4em;
-  margin-left: 8em;
+  margin-left: 6.6em;
+  margin-bottom: 2.6em;
   text-align: justify;
   line-height: 1.6em;
 }
@@ -136,9 +141,9 @@ svg {
 
 .project-list {
   display: flex;
-  margin: 1em;
-  padding: 2em;
-  width: 80vw;
+  margin: 2em;
+  padding: 4em;
+  width: 85vw;
   align-items: center;
   justify-content: center;
   border: 1px solid #3c3e42;
@@ -147,7 +152,7 @@ svg {
 .project-title {
   display: flex;
   height: 2em;
-  width: 10em;
+  width: 8em;
   color: #3c3e42;
   background-color: white;
   border: 2px solid black;
@@ -155,7 +160,7 @@ svg {
   text-align: center;
   align-items: center;
   justify-content: center;
-  font-size: 2.5em;
+  font-size: 3em;
 }
 
 #steppr {
@@ -306,4 +311,124 @@ svg {
 
 #copyright-text {
   font-weight: lighter;
+}
+
+.project-modal {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  min-width: 100vw;
+}
+
+.popup-overlay {
+  min-width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.popup-content {
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#jamspace-modal {
+  outline: 20em solid #3c3e42;
+  background-image: url('https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/467064/1160/772/m1/fpnw/wm1/i0435-.jpg?1430378113&s=49e6a55f98b02e938593beadf51f7a9b');
+}
+
+#steppr-modal {
+  outline: 20em solid #db651c;
+  background-image-size: 60%;
+  background-image: url('./src/steppr_black.png');
+}
+
+#sockr-modal {
+  outline: 20em solid #3c3e42;
+  background-image: url('https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX9878837.jpg');
+}
+
+.project-description {
+  display: flex;
+  min-height: 100vh;
+  padding-top: 12.5em;
+  flex-direction: column;
+}
+
+#jamspace-description {
+  margin-left: 50vw;
+  background-color: #3c3e42;
+}
+
+#steppr-description {
+  margin-right: 50vw;
+  background-color: #db651c;
+}
+
+#sockr-description {
+  margin-left: 50vw;
+  background-color: #3c3e42;
+}
+
+.project-description-header {
+  color: white;
+  font-size: 2em;
+  padding-bottom: 0;
+/*  margin-bottom: 22em;*/
+  position: relative;
+  margin-left: 2em;
+  border-bottom: 1px solid white;
+}
+
+.project-description-text {
+  margin: 4em;
+  margin-top: .4em;
+  margin-bottom: .4em;
+  color: #d8d3d2;
+}
+
+.project-description-icons {
+  display: inline-flex;
+  margin-left: 2.2em;
+  padding-left: 0;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+
+#jamspace-github-icon {
+  height: 2.15em;
+  width: 2.15em;
+  margin-left: .2em;
+}
+
+#jamspace-description-links {
+  display: flex;
+  margin-top: 0;
+  margin-left: 24em;
+  flex-direction: column;
+}
+
+.project-url-container {
+  color: white;
+  margin-left: 2.2em;
+  margin-bottom: 1.4em;
+  margin-top: .4em;
+  border-bottom: 1px solid white;
+}
+
+#jamspace-url {
+  color: white;
+  margin-left: .6em;
+  padding-bottom: 4em;
+}
+
+.youtube-icon {
+  display: flex;
+  color: white;
+  height: 2em;
+  margin-bottom: .25em;
+}
+
+#jamspace-youtube-icon {
+  margin-left: .2em;
 }

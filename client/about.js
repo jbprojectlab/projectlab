@@ -8,9 +8,9 @@ export const About = props => {
           <h3 id='about-title'>About Me</h3>
           <p id='about-text'>
             I love to create, and I love being around people who love to create.
-            After playing competitive golf for most of my youth, I gained a passion for music
+            After playing competitive golf for most of my youth, I discovered a passion for music
             in college, and taught myself to play several instruments. Through learning
-            the ins-and-outs of song writing, sound engineering, and audio synthesis, I found
+            the ins-and-outs of song writing, sound engineering, and audio synthesis, I gained
             an appreciation for computer-based music, and eventually software development.
             Once I realized there was a way to build whatever I could imagine, without being
             bound by any particular medium, I became immediately hooked. Now I am in the process
