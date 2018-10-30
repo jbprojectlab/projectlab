@@ -15,6 +15,23 @@ svg {
 button:focus {outline:0;}
 button:hover {box-shadow: 0px 0px 6px #db651c;}
 
+.close {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 20px;
+  right: 20px;
+  opacity: 0.8;
+  transition: all 200ms;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #666;
+  &:hover {
+    opacity: 1;
+  }
+}
+
 #header {
   display: flex;
   height: 22vh;
@@ -351,7 +368,7 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
 .project-description {
   display: flex;
   min-height: 100vh;
-  padding-top: 12.5em;
+  padding-top: 10.2em;
   flex-direction: column;
 }
 
@@ -387,17 +404,16 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
 }
 
 .project-description-icons {
-  display: inline-flex;
+  display: flex-column;
   margin-left: 2.3em;
   padding-left: 0;
   align-items: center;
-  border-bottom: 1px solid white;
 }
 
 #jamspace-github-icon {
-  height: 2.15em;
-  width: 2.15em;
-  margin-left: .2em;
+  height: 3.4em;
+  width: 3.4em;
+  margin-left: .3em;
 }
 
 #jamspace-description-links {
@@ -412,12 +428,7 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
   margin-left: 2.2em;
   margin-bottom: 1.4em;
   margin-top: 2em;
-  border-bottom: 1px solid white;
 }
-
-/*.project-url {
-  margin-bottom: 4em;
-}*/
 
 #jamspace-url {
   color: white;
@@ -430,9 +441,13 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
   display: flex;
   color: white;
   height: 2em;
-  margin-bottom: .25em;
+  margin-bottom: 1.4em;
 }
 
 #jamspace-youtube-icon {
   margin-left: .2em;
+}
+
+.close {
+  cursor: pointer;
 }
