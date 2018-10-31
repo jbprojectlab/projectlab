@@ -66,9 +66,6 @@ export const Projects = props => {
                   be seen and heard by the other player, and making music together becomes very immediate.
                 </p>
                 <div className='project-description-links'>
-                  {/*<div className='project-url-container'>
-                    <a className='project-url' href='http://www.steppr.io'>steppr.io</a>
-                  </div>*/}
                   <div className='project-description-icons'>
                     <a className='project-youtube' href='https://www.youtube.com/watch?v=bvj3dOitsOE&amp=&feature=youtu.be'>
                       <img id='steppr-youtube-icon' className='youtube-icon'
