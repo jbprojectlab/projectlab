@@ -369,7 +369,9 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
 
 #sockr-modal {
   outline: 20em solid #3c3e42;
-  background-image: url('https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX9878837.jpg');
+  background-size: cover;
+  background-position: 50%;
+  background-image: url('./src/sockr-modal-background.jpg');
 }
 
 .project-description {
