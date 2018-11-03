@@ -505,7 +505,6 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
     min-height: 28vh;
     min-width: 60vw;
     width: 48vw;
-/*    font-size: 1.6em;*/
   }
   #about-title {
     display: none;
@@ -529,5 +528,224 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
     max-width: 50vw;
     max-height: 50vh;
     margin-left: 20em;
+    margin-top: 6em;
+  }
+
+  #projects-header {
+    font-size: 5em;
+  }
+
+  .project-list {
+    width: 100vw;
+    height: 39vw;
+    margin: 0;
+  }
+
+  .project-title {
+    font-size: 5em;
+  }
+
+  .projects-header-segments {
+    display: flex;
+    stroke: #d8d3d2;
+    stroke-width: 2;
+    padding-bottom: 0;
+    height: 3em;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .info-segments {
+    display: flex;
+    stroke: #d8d3d2;
+    stroke-width: 2;
+    margin-top: 1.7em;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #button-top-segment {
+    height: 3em;
+    margin-bottom: .9em;
+  }
+
+  #button-bottom-segment {
+    height: 3em;
+    margin-top: 1em;
+  }
+
+  #resume-button {
+    margin: .2em;
+    font-size: 2.2em;
+  }
+
+  #contact-header {
+    margin-top: .4em;
+    font-size: 4.8em;
+  }
+
+  #email-button {
+    margin-bottom: 1.12em;
+    margin-top: 1.2em;
+    height: 4.3em;
+    width: 5.8em;
+  }
+
+  #envelope-icon {
+    font-size: 40px;
+  }
+
+  #email-address {
+    font-size: 2em;
+    margin-top: .6em;
+    margin-bottom: 1em;
+  }
+
+  #social-media-nav {
+    height: 10vh;
+  }
+
+  #github-icon {
+    height: 2.4em;
+    width: 2.4em;
+  }
+
+  #linkedin-icon {
+    height: 4.8em;
+    width: 4.8em;
+    margin-right: 1.6em;
+  }
+
+  #copyright-nav {
+    font-size: 2.75em;
+  }
+
+  #copyright-text {
+    margin-top: .5em;
+    margin-bottom: .5em;
+  }
+
+  .project-modal {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    min-width: 100vw;
+  }
+
+  .popup-overlay {
+    min-width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+
+  .popup-content {
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #jamspace-modal {
+    outline: 20em solid #3c3e42;
+    background-image: url('https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/467064/1160/772/m1/fpnw/wm1/i0435-.jpg?1430378113&s=49e6a55f98b02e938593beadf51f7a9b');
+  }
+
+  #steppr-modal {
+    outline: 20em solid #db651c;
+    background-image-size: 300px;
+    background-image: url('./src/steppr_black.png');
+  }
+
+  #sockr-modal {
+    outline: 20em solid #3c3e42;
+    background-size: cover;
+    background-position: 50%;
+    background-image: url('./src/sockr-modal-background.jpg');
+  }
+
+  .project-description {
+    display: flex;
+    min-height: 100vh;
+    margin-left: 50vw;
+    padding-top: 10.2em;
+    flex-direction: column;
+  }
+
+  #jamspace-description {
+    background-color: #3c3e42;
+  }
+
+  #steppr-description {
+    background-color: #db651c;
+  }
+
+  #sockr-description {
+    background-color: #3c3e42;
+  }
+
+  .project-description-header {
+    color: white;
+    font-size: 2em;
+    padding-bottom: 0;
+    position: relative;
+    margin-left: 2em;
+    border-bottom: 1px solid white;
+  }
+
+  .project-description-text {
+    margin: 4em;
+    margin-top: .4em;
+    margin-bottom: .4em;
+    color: #d8d3d2;
+  }
+
+  .project-description-icons {
+    display: flex-column;
+    margin-left: 2.3em;
+    padding-left: 0;
+    align-items: center;
+  }
+
+  .project-github-icons {
+    color: #d8d3d2;
+    height: 3.4em;
+    width: 3.4em;
+    margin-top: 0em;
+    margin-left: .15em; 
+  }
+
+  .project-description-links {
+    display: flex;
+    margin-top: 0;
+    margin-left: 1.6em;
+    flex-direction: column;
+  }
+
+  .project-url-container {
+    color: white;
+    margin-left: 2.2em;
+    margin-bottom: 1.4em;
+    margin-top: 2em;
+  }
+
+  .project-url {
+    color: white;
+    font-size: 1.3em;
+    margin-left: .35em;
+    padding-bottom: 8em;
+  }
+
+  .youtube-icon {
+    color: #d8d3d2;
+    height: 2em;
+    padding-right: 60em;
+    margin-bottom: 1.2em;
+    margin-top: .2em;
+    padding-left: 0;
+  }
+
+  #steppr-youtube-icon {
+    margin-top: 2.5em;
   }
 }
