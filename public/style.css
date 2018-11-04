@@ -38,7 +38,7 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
 #header {
   display: flex;
   height: 22vh;
-  min-height: 180px;
+  min-height: 200px;
   max-height: 200px;
   font-size: 1.75em;
   align-items: center;
@@ -70,7 +70,7 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
 #quote-container {
   height: 15vh;
   display: flex;
-  min-height: 100px;
+  min-height: 140px;
   max-height: 160px;
   flex-direction: column;
   align-items: center;
@@ -80,13 +80,16 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
 
 #quote {
   color: white;
-  margin-top: .8em;
+  font-size: 2em;
+  margin-top: .9em;
+  margin-bottom: 0;
   font-weight: lighter;
 }
 
 #author {
   color: white;
-  margin-top: .05em
+  margin-top: 0
+  font-size: 20em;
   font-weight: lighter;
 }
 
@@ -240,7 +243,7 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
   width: 12em;
   color: white;
   display: flex;
-  font-size: 1.7em;
+  font-size: 1.65em;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -468,39 +471,48 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
 .youtube-icon:hover {border-image: 0px 0px 3px #d8d3d2;}
 .project-github-icons:hover {text-shadow: 0px 0px 3px #d8d3d2;}
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
   #header {
     height: 30vh;
-    min-height: 180px;
-    max-height: 300px;
+    min-height: 240px;
+    max-height: 360px;
     font-size: 2.4em;
   }
+
   #name {
+    margin-top: .8em;
     font-size: 2.7em;
   }
+
   #title {
     padding-top: 1.5em;
     margin-bottom: 2.4em;;
     font-size: 1.2em;
   }
+
   #quote-container {
     height: 17vh;
-    min-height: 100px;
-    max-height: 230px;
+    min-height: 220px;
+    max-height: 320px;
     font-size: 1.7em;
   }
+
   #quote {
-    margin-top: 1.6em;
+    text-align: center;
+    margin-top: 1em;
   }
+
   #author {
     font-size: 1.3em;
-    margin-top: .1em;
+    margin-top: 1em;
   }
+
   #about-container {
     display: table;
     margin-bottom: 3em;
     background-color: #d8d3d2;
   }
+
   #about-text-container {
     justify-content: center;
     align-items: center;
@@ -509,11 +521,13 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
     min-width: 60vw;
     width: 48vw;
   }
+
   #about-title {
     display: none;
     text-align: center;
     font-size: 2em;
   }
+
   #about-text {
     font-size: 1.8em;
     margin-left: 3em;
@@ -521,12 +535,14 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
     margin-bottom: 3em;
     text-align: left;
   }
+
   #photo-container {
     align-items: center;
     display: table-header-group;
     justify-content: center;
     padding-bottom: 4em;
   }
+
   #photo {
     max-width: 50vw;
     max-height: 50vh;
@@ -613,6 +629,7 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
 
   #social-media-nav {
     height: 10vh;
+    min-height: 140px;
   }
 
   #github-icon {
