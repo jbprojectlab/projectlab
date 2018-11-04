@@ -90,11 +90,11 @@ export const Projects = props => {
           {close => (
             <div id='sockr-modal' className='project-modal'>
               <div id='sockr-description' className='project-description'>
-                <a className="close" onClick={close}>&times;</a>
+                <a id='sockr-close' className="close" onClick={close}>&times;</a>
                 <h3 className='project-description-header'>
                   Sockr
                 </h3>
-                <p className='project-description-text'>
+                <p id='sockr-description-text' className='project-description-text'>
                   Sockr is a one-stop-shop for single socks. We are the answer to all of your missing sock prayers,
                   and we do not seek to appease those in search of a complete pair. Try as you might, but you will not
                   find an even number of socks in sight. Search high and low, but one, three, five, seven, and nine
