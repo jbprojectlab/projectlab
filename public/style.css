@@ -97,6 +97,7 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
   background-color: #d8d3d2;
   display: inline-flex;
   flex-wrap: wrap;
+  justify-content: center;
   min-width: 100vw;
 }
 
@@ -114,7 +115,7 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
   padding: 1em;
   max-width: 25%;
   margin-top: .95em;
-  margin-left: 5em;
+  margin-left: 4em;
   padding-bottom: .25em;
   font-weight: lighter;
   border-bottom: 1px solid #3c3e42;
@@ -124,7 +125,7 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
   color: #3c3e42;
   font-size: .7em;
   margin-top: 1.4em;
-  margin-left: 6.6em;
+  margin-left: 5.8em;
   margin-bottom: 2.6em;
   text-align: justify;
   line-height: 1.5em;
