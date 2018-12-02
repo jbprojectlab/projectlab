@@ -474,6 +474,7 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
 .youtube-icon:hover {border-image: 0px 0px 3px #d8d3d2;}
 .project-github-icons:hover {text-shadow: 0px 0px 3px #d8d3d2;}
 
+
 @media only screen and (max-width: 1200px) {
   #header {
     height: 30vh;
@@ -497,7 +498,7 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
     height: 17vh;
     min-height: 220px;
     max-height: 320px;
-    font-size: 1.7em;
+    font-size: 1.467em;
   }
 
   #quote {
@@ -532,7 +533,7 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
   }
 
   #about-text {
-    font-size: 1.8em;
+    font-size: .8em;
     margin-left: 3em;
     margin-right: 3em;
     margin-bottom: 3em;
@@ -748,17 +749,37 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
   }
 }
 
-@media only screen and (max-width: 650px) {
+
+@media only screen and (max-width: 1000px) {
   #header {
     text-align: center;
-    min-height: 500px;
-    max-height: 500px;
   }
 
   #quote-container {
-    min-height: 450px;
+    min-height: 340px;
     max-height: 450px; 
+  }
+
+  #about-text {
+    font-size: 1.6em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 2.4em;
+    text-align: center;
   }
 }
 
+@media only screen and (max-width: 600px) {
+  #header {
+    text-align: center;
+    min-height: 500px;
+  }
+  .project-list {
+    min-height: 400px;
+  }
 
+  .project-title {
+    font-size: 3.8em;
+    margin: 0;
+  }
+}
