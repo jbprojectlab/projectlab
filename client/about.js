@@ -5,10 +5,10 @@ export const About = props => {
     <Fragment>
       <div id='about-container'>
         <div id='about-with-photo'>
-          <h1 id='about-title-with-photo'>About Me</h1>
           <div id='photo-container'>
             <img id='photo' src='src/james-byrd-side-profile.png'></img>
           </div>
+          <h1 id='about-title-with-photo'>About Me</h1>
         </div>
         <div id='about-text-container'>
           <h3 id='about-title'>About Me</h3>
