@@ -117,13 +117,13 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
   margin: 0;
   padding: 1em;
   max-width: 25%;
-  margin-top: .95em;
-  margin-left: 22em;
+  margin-top: 2.25em;
+  margin-left: 21.8em;
   padding-left: 6em;
-  padding-bottom: .25em;
-  padding-right: 4em;
+  padding-bottom: .35em;
+  padding-right: 3em;
   font-weight: lighter;
-  border-bottom: 1px solid #db651c;
+  border-bottom: 1.7px solid #db651c;
 }
 
 #about-text {
@@ -159,7 +159,7 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
   margin-top: 4em;
   padding-left: -2em;
   padding-right: 12em;
-  border-bottom: 1px solid #db651c;
+  border-bottom: 1.8px solid #db651c;
 }
 
 /*#db651c*/
