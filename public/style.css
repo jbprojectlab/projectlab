@@ -892,7 +892,10 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
   }
 
   #about-title-with-photo {
-    padding-left: 3em;
+    padding-left: 2em;
+    padding-right: 2.5em;
+    margin-top: 8.449em;
+    font-size: 3em;
   }
 
   #photo {
@@ -900,16 +903,17 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
   }
 }
 
-@media only screen and (max-width: 921px) {
+@media only screen and (max-width: 954px) {
   #about-title-with-photo {
-    padding-left: 1.5em;
+    padding-left: 1em;
+    padding-right: 1.8em;
   }
 }
 
-@media only screen and (max-width: 833px) {
+@media only screen and (max-width: 870px) {
   #about-title-with-photo {
-    padding-left: 1em;
-    padding-right: 3.2em;
+    padding-left: .5em;
+    padding-right: 1.8em;
   }
   #photo {
     margin-left: 2.4em;
@@ -918,35 +922,24 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
 
 @media only screen and (max-width: 791px) {
   #about-title-with-photo {
-    padding-left: .4em;
-  }
-  #photo {
-    margin-left: 1.9em;
-  }
-}
-
-@media only screen and (max-width: 709px) {
-  #about-title-with-photo {
-    padding-left: .2em;
-    padding-right: 2em;
-  }
-  #photo {
-    margin-left: 1.2em;
-  }
-}
-
-@media only screen and (max-width: 648px) {
-  #about-title-with-photo {
     padding-left: 0;
     padding-right: .8em;
   }
   #photo {
-    padding-left: 0;
-    margin-left: .2em;
+    margin-left: 1.7em;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 710px) {
+  #about-title-with-photo {
+    padding-right: .12em;
+  }
+  #photo {
+    margin-left: .5em;
+  }
+}
+
+@media only screen and (max-width: 658px) {
   #header {
     text-align: center;
     min-height: 500px;
@@ -973,7 +966,7 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
   }
 }
 
-@media only screen and (max-width: 518px) {
+@media only screen and (max-width: 553px) {
   #about-title-with-photo {
     color: transparent;
     display: none;
@@ -982,7 +975,7 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
   #photo-container {
     align-self: center;
     margin: auto;
-    margin-left: 2.4em;
+    margin-left: 3em;
   }
 
   #contact-header {
