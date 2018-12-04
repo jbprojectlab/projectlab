@@ -102,33 +102,44 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
 }
 
 #about-text-container {
-  min-height: 28vh;
+  min-height: 26vh;
   min-width: 60vw;
   width: 48vw;
-  font-size: 1.6em;
+  margin-right: 2em;
+  font-size: 1.84em;
   display: inline-block;
   background-color: #d8d3d2;
 }
 
 #about-title {
+  overflow: hidden;
+  white-space: nowrap;
   margin: 0;
   padding: 1em;
   max-width: 25%;
   margin-top: .95em;
-  margin-left: 4em;
+  margin-left: 22em;
+  padding-left: 6em;
   padding-bottom: .25em;
+  padding-right: 4em;
   font-weight: lighter;
-  border-bottom: 1px solid #3c3e42;
+  border-bottom: 1px solid #db651c;
 }
 
 #about-text {
   color: #3c3e42;
   font-size: .7em;
   margin-top: 1.4em;
-  margin-left: 5.8em;
-  margin-bottom: 2.6em;
+  margin-bottom: 1.6em;
   text-align: justify;
-  line-height: 1.5em;
+  line-height: 1.65em;
+  margin-left: 4em;
+  margin-right: 2em;
+}
+
+#about-title-with-photo {
+  font-size: .21em;
+  color: transparent;
 }
 
 #photo-container {
@@ -137,15 +148,21 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
   justify-content: center;
   padding-right: 4em;
   padding-bottom: 4em;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 #photo {
-  max-width: 280px;
-  max-height: 400px;
+  max-width: 420px;
+  max-height: 600px;
   margin-left: 8em;
   margin-top: 4em;
-  border: 3px solid #db651c;
+  padding-left: -2em;
+  padding-right: 12em;
+  border-bottom: 1px solid #db651c;
 }
+
+/*#db651c*/
 
 #projects-header-container {
   align-items: center;
@@ -474,7 +491,75 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
 .youtube-icon:hover {border-image: 0px 0px 3px #d8d3d2;}
 .project-github-icons:hover {text-shadow: 0px 0px 3px #d8d3d2;}
 
+@media only screen and (max-width: 1879px) {
+  #about-container {
+    display: table;
+    margin-bottom: 3em;
+    background-color: #d8d3d2;
+  }
 
+  #about-text-container {
+    justify-content: center;
+    align-items: center;
+    display: table-footer-group;
+    min-height: 28vh;
+    min-width: 60vw;
+    width: 48vw;
+  }
+
+  #about-title {
+    display: none;
+  }
+
+  #about-text {
+    font-size: .8em;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 5em;
+    text-align: left;
+  }
+
+  #photo-container {
+    margin-left: 3em;
+    align-items: center;
+    display: table-header-group;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  #photo {
+    align-self: flex-start;
+    position: relative;
+    margin-right: 0;
+    margin-top: 2em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    right: 0;
+  }
+
+  #about-with-photo {
+    display: inline-flex;
+    justify-content: space-between;
+  }
+
+  #about-title-with-photo {
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 14em;
+    margin-left: 4em;
+    padding: 0;
+    padding-left: 2em;
+    padding-right: 8em;
+    color: black;
+    max-height: 2em;
+    font-size: 2em;
+    font-weight: lighter;
+    border-bottom: 1px solid #3c3e42; 
+  }
+}
+  
 @media only screen and (max-width: 1200px) {
   #header {
     height: 30vh;
@@ -522,7 +607,7 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
     align-items: center;
     display: table-footer-group;
     min-height: 28vh;
-    min-width: 60vw;
+    max-width: 10vw;
     width: 48vw;
   }
 
@@ -548,8 +633,9 @@ button:hover {box-shadow: 0px 0px 6px #db651c;}
   }
 
   #photo {
-    max-width: 50vw;
-    max-height: 50vh;
+    align-self: flex-end;
+/*    max-width: 50vw;
+    max-height: 50vh;*/
     margin-left: 20em;
     margin-top: 6em;
   }
