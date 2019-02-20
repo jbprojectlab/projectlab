@@ -1,5 +1,7 @@
 # Project Lab
 
+Hey good people welcome to my project lab -- feel free to get in touch if you want to work on something cool! :v:
+
 ## Setup
 
 ### MacOS/Linux

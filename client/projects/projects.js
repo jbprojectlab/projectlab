@@ -1,5 +1,6 @@
 import React, {Fragment} from 'react'
 import Popup from 'reactjs-popup'
+import css from './projects.css'
 
 export const Projects = props => {
   return (

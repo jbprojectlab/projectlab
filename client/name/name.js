@@ -1,4 +1,5 @@
 import React from 'react'
+import css from './name.css'
 
 export const Name = props => {
   return (

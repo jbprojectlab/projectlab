@@ -1,4 +1,5 @@
 import React from 'react'
+import css from './social-media-nav.css'
 
 export const SocialMediaNav = props => {
   return (

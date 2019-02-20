@@ -1,0 +1,322 @@
+.close {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 20px;
+  right: 20px;
+  opacity: 0.8;
+  transition: all 200ms;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 2em;
+  margin-right: .5em;
+  cursor: pointer;
+  color: white;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+#projects-header-container {
+  align-items: center;
+  margin-top: 2em;
+}
+
+#projects-header {
+  justify-content: center;
+  color: #db651c;
+  display: flex;
+  margin-top: .2em;
+  margin-bottom: .2em;
+  font-size: 3.5em;
+}
+
+#project-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.project-list {
+  display: flex;
+  margin: 2em;
+  margin-top: 1em;
+  padding: 4em;
+  width: 85vw;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #3c3e42;
+}
+
+.project-title {
+  display: flex;
+  height: 2em;
+  width: 8em;
+  color: #3c3e42;
+  background-color: white;
+  border: 2px solid black;
+  padding: 0px 25px 0px 25px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+}
+
+.projects-header-segments {
+  display: flex;
+  stroke: #d8d3d2;
+  stroke-width: 2;
+  padding-bottom: 0;
+  height: 3em;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-modal {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  min-width: 100vw;
+}
+
+.popup-overlay {
+  min-width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.popup-content {
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.project-description {
+  display: flex;
+  min-height: 100vh;
+  margin-left: 50vw;
+  padding-top: 10.2em;
+  flex-direction: column;
+}
+
+#jamspace-description {
+  background-color: #3c3e42;
+}
+
+#steppr-description {
+  background-color: #db651c;
+}
+
+#sockr-description {
+  background-color: #3c3e42;
+}
+
+.project-description-header {
+  color: white;
+  font-size: 2em;
+  padding-bottom: 0;
+  position: relative;
+  margin-left: 2em;
+  border-bottom: 1px solid white;
+}
+
+.project-description-text {
+  margin: 4em;
+  margin-top: .4em;
+  margin-bottom: .4em;
+  color: white;
+  font-weight: lighter;
+}
+
+.project-description-icons {
+  display: flex-column;
+  margin-left: 2.3em;
+  padding-left: 0;
+  align-items: center;
+}
+
+.project-github-icons {
+  color: #d8d3d2;
+  height: 3.4em;
+  width: 3.4em;
+  margin-top: 0em;
+  margin-left: .15em; 
+}
+
+.project-description-links {
+  display: flex;
+  margin-top: 0;
+  margin-left: 1.6em;
+  flex-direction: column;
+}
+
+.project-url-container {
+  color: white;
+  margin-left: 2.2em;
+  margin-bottom: 1.4em;
+  margin-top: 2em;
+}
+
+.project-url {
+  color: white;
+  font-size: 1.3em;
+  margin-left: .35em;
+  padding-bottom: 8em;
+}
+
+.youtube-icon {
+  color: #d8d3d2;
+  height: 2em;
+  padding-right: 60em;
+  margin-bottom: 1.2em;
+  margin-top: .2em;
+  padding-left: 0;
+}
+
+#steppr-youtube-icon {
+  margin-top: .5em;
+}
+
+#envelope-icon:hover {text-shadow: 0px 0px .5px #db651c;}
+.project-url:hover {text-shadow: 0px 0px 3px #d8d3d2;}
+.youtube-icon:hover {border-image: 0px 0px 3px #d8d3d2;}
+.project-github-icons:hover {text-shadow: 0px 0px 3px #d8d3d2;}
+
+@media only screen and (max-width: 1200px) {
+  #project-container {
+    margin-top: 1.3em;
+    margin-bottom: 4em;
+  }
+
+  #projects-header {
+    font-size: 5em;
+  }
+
+  .project-list {
+    width: 100vw;
+    height: 39vw;
+    margin: 0;
+  }
+
+  .project-title {
+    font-size: 5em;
+    margin-left: 3.55em;
+  }
+
+  .projects-header-segments {
+    display: flex;
+    stroke: #d8d3d2;
+    stroke-width: 2;
+    padding-bottom: 0;
+    height: 3em;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #sockr-modal {
+    outline: 20em solid #3c3e42;
+    background-image: url('https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX9878837.jpg');
+  }
+
+  .project-description {
+    min-height: 50vh;
+    height: 67vh;
+    margin-left: 0vw;
+    padding-top: 4em;
+    bottom: 0;
+    position: fixed;
+  }
+
+  .project-description-header {
+    color: white;
+    font-size: 3em;
+    padding-bottom: 0;
+    position: relative;
+    margin-left: 2em;
+    border-bottom: 1px solid white;
+  }
+
+  .project-description-text {
+    margin-top: .3em;
+    margin-left: 2.6em;
+    margin-right: 10em;
+    margin-bottom: .4em;
+    font-size: 2.3em;
+  }
+
+  #sockr-description-text {
+    margin-right: 3em;
+  }
+
+  .project-description-icons {
+    margin-left: 4.3em;
+    padding-left: 0;
+    align-items: center;
+  }
+
+  .project-github-icons {
+    color: #d8d3d2;
+    height: 5.2em;
+    width: 5.2em;
+    margin-top: 1.5em;
+    margin-left: .15em; 
+  }
+
+  .project-description-links {
+    display: flex;
+    margin-top: 0;
+    margin-left: 1.6em;
+    flex-direction: column;
+  }
+
+  .project-url-container {
+    margin-left: 3.8em;
+    margin-bottom: 1.4em;
+    margin-top: 3em;
+  }
+
+  .project-url {
+    font-size: 2.3em;
+    margin-left: .35em;
+    padding-bottom: 8em;
+  }
+
+  .youtube-icon {
+    color: #d8d3d2;
+    height: 3.7em;
+    padding-right: 60em;
+    margin-bottom: 1.2em;
+    margin-top: 1.8em;
+    padding-left: 0;
+  }
+
+  #steppr-youtube-icon {
+    margin-top: 2.5em;
+  }
+
+  .close {
+    font-size: 4.2em;
+    margin-top: .4em;
+    margin-right: 30vw;;
+  }
+
+  #sockr-close {
+    margin-right: 1em;
+  }
+}
+
+
+@media only screen and (max-width: 658px) {
+  .project-list {
+    min-height: 400px;
+  }
+
+  .project-title {
+    font-size: 3.8em;
+    margin: 0;
+  }
+}

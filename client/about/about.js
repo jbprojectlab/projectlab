@@ -1,4 +1,5 @@
 import React, {Fragment} from 'react'
+import css from './about.css'
 
 export const About = props => {
   return (

@@ -1,9 +1,10 @@
 import React, {Fragment} from 'react'
 import {ResumeButton} from './resume-button'
 import {ContactHeader} from './contact-header'
-import {Email} from './email'
+import {Email} from './email/email'
+import css from './contact.css'
 
-export const Info = props => {
+export const Contact = props => {
   return (
     <Fragment>
       <div className='info-segments'>
