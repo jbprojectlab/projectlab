@@ -37,7 +37,7 @@ export const Projects = props => {
                       </img>
                     </a>
                     <a id='jamspace-github' className='project-github' href='https://github.com/Fullstack-JamSpace/JamSpaceTV'>
-                      <img className='project-github-icons' src='https://jriccardi.com/github-icon.svg'></img>
+                      <img className='project-github-icons' src='/src/github-icon.svg'></img>
                     </a>
                   </div>
                 </div>
@@ -66,14 +66,17 @@ export const Projects = props => {
                   be seen and heard by the other player, and making music together becomes very immediate.
                 </p>
                 <div className='project-description-links'>
+                  <div id='steppr-url-container' className='project-url-container'>
+                    <a  className='project-url' href='https://www.steppr.io'>steppr.io</a>
+                  </div>
                   <div className='project-description-icons'>
                     <a className='project-youtube' href='https://www.youtube.com/watch?v=bvj3dOitsOE&amp=&feature=youtu.be'>
                       <img id='steppr-youtube-icon' className='youtube-icon'
                         src='https://basejump.co.uk/wp-content/uploads/2016/03/youtube-logo.png'>
                       </img>
                     </a>
-                    <a className='project-github' href='https://github.com/james-byrd/steppr.io'>
-                      <img className='project-github-icons' src='https://jriccardi.com/github-icon.svg'></img>
+                    <a className='project-github' href='https://github.com/jbprojectlab/steppr.io'>
+                      <img className='project-github-icons' src='/src/github-icon.svg'></img>
                     </a>
                   </div>
                 </div>
@@ -106,7 +109,7 @@ export const Projects = props => {
                   </div>
                   <div className='project-description-icons'>
                     <a className='project-github' href='https://github.com/Fullstack-GraceShopper/GraceShopper'>
-                      <img className='project-github-icons' src='https://jriccardi.com/github-icon.svg'></img>
+                      <img className='project-github-icons' src='/src/github-icon.svg'></img>
                     </a>
                   </div>
                 </div>
