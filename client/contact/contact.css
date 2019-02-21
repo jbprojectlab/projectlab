@@ -26,7 +26,7 @@
   color: white;
   display: flex;
   font-size: 1.65em;
-  text-align: center;
+  text-align: -webkit-center;
   align-items: center;
   font-weight: lighter;
   justify-content: center;
@@ -87,6 +87,6 @@
 
 @media only screen and (max-width: 553px) {
   #contact-header {
-    text-align: center;
+    text-align: -webkit-center;
   }
 }

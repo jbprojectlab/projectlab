@@ -185,7 +185,7 @@
 
   #about-title {
     display: none;
-    text-align: center;
+    text-align: -webkit-center;
     font-size: 2em;
   }
 
@@ -217,7 +217,7 @@
     margin-left: 1em;
     margin-right: 1em;
     margin-bottom: 2.4em;
-    text-align: center;
+    text-align: -webkit-center;
   }
 
   #about-title-with-photo {

@@ -51,13 +51,13 @@
 
 @media only screen and (max-width: 1058px) {
   #header {
-    text-align: center;
+    text-align: -webkit-center;
   }
 }
 
 @media only screen and (max-width: 658px) {
   #header {
-    text-align: center;
+    text-align: -webkit-center;
     min-height: 500px;
   }
 }

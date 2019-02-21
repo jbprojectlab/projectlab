@@ -33,7 +33,7 @@
   }
 
   #quote {
-    text-align: center;
+    text-align: -webkit-center;
     margin-top: 1em;
   }
 
