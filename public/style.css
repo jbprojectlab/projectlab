@@ -16,10 +16,8 @@ body {
   font-family: 'Paloseco';
   margin: 0;
   padding: 0;
-}
-
-body::-webkit-scrollbar {
-  -webkit-appearance: none;
+  width: 100vw;
+  height: 100vh;
 }
 
 a:link {
