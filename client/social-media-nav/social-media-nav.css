@@ -6,22 +6,27 @@
   font-size: 1.75em;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
   margin-top: 1.5em;
   background-color: #db651c;
 }
 
-#github-icon {
+.social-media-icon {
+  display: inline-flex;
   height: 2em;
-  width: 2em;
-  margin-left: 2.2em;
+  width: 2em; 
 }
 
 #linkedin-icon {
-  height: 4.5em;
-  width: 4.5em;
   fill: white;
-  margin-top: .1em;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+#github-icon {
+  height: 2.08em;
+  width: 2.08em;
+  padding: 2.1em;
+  margin-bottom: .3px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -29,15 +34,12 @@
     height: 10vh;
     min-height: 140px;
   }
-
-  #github-icon {
-    height: 3em;
-    width: 3em;
+  .social-media-icon {
+    height: 2.8em;
+    width: 2.8em; 
   }
-
-  #linkedin-icon {
-    height: 6.2em;
-    width: 6.2em;
-    margin-right: 1.2em;
+  #github-icon {
+    height: 2.9em;
+    width: 2.9em;
   }
 }

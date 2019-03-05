@@ -21,13 +21,13 @@
 #envelope-icon {
   color: #3c3e42;
   font-size: 3em;
-  font-weight: lighter;
+  opacity: .8;
 }
 
 #email-address {
   color: #3c3e42;
   font-size: 1.5em;
-  font-weight: lighter;
+  font-family: 'Paloseco-Light';
   margin-top: .5em;
 }
 

@@ -4,6 +4,7 @@
   flex-wrap: wrap;
   justify-content: center;
   min-width: 100vw;
+  font-family: 'Paloseco-Light'
 }
 
 #about-text-container {

@@ -34,6 +34,7 @@
 }
 
 #contact-header {
+  font-weight: medium;
   justify-content: center;
   color: #db651c;
   display: flex;

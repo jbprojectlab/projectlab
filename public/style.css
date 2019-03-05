@@ -1,19 +1,19 @@
 @font-face {
   font-family: 'Paloseco';
-  src: url('./src/paloseco/paloseco-light.ttf') format('truetype');
-  font-weight: lighter;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Paloseco';
-  src: url('./src/paloseco/paloseco-medium.ttf') format('truetype');
+  src: url('./src/fonts/paloseco-medium.ttf') format('opentype');
   font-weight: medium;
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Paloseco-Light';
+  src: url('./src/fonts/paloseco-light.ttf') format('opentype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
 body {
-  font-family: 'Paloseco';
+  font-family: 'Paloseco', 'Paloseco-Light';
   margin: 0;
   padding: 0;
   width: 100vw;

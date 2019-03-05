@@ -38,7 +38,7 @@ export const Projects = props => {
                       </img>
                     </a>
                     <a id='jamspace-github' className='project-github' href='https://github.com/Fullstack-JamSpace/JamSpaceTV'>
-                      <img className='project-github-icons' src='/src/github-icon.svg'></img>
+                      <img className='project-github-icons' src='/src/github.svg'></img>
                     </a>
                   </div>
                 </div>
@@ -77,7 +77,7 @@ export const Projects = props => {
                       </img>
                     </a>
                     <a className='project-github' href='https://github.com/jbprojectlab/steppr.io'>
-                      <img className='project-github-icons' src='/src/github-icon.svg'></img>
+                      <img className='project-github-icons' src='/src/github.svg'></img>
                     </a>
                   </div>
                 </div>
@@ -110,7 +110,7 @@ export const Projects = props => {
                   </div>
                   <div className='project-description-icons'>
                     <a className='project-github' href='https://github.com/Fullstack-GraceShopper/GraceShopper'>
-                      <img className='project-github-icons' src='/src/github-icon.svg'></img>
+                      <img className='project-github-icons' src='/src/github.svg'></img>
                     </a>
                   </div>
                 </div>
