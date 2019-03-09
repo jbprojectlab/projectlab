@@ -20,7 +20,7 @@ export const Projects = props => {
                   JAMSPACE.TV
                 </h3>
                 <p className='project-description-text'>
-                  JamSpaceTV is a live video-streaming application designed for musicians, by musicians.
+                  JamSpace.TV is a live video-streaming application designed for musicians, by musicians.
                   They will now have a space to share their music with the world, while interacting with
                   an audience in real-time, whether that be through live performance, lessons, or in the
                   studio. While other streaming applications already exist, their music sections tend to
