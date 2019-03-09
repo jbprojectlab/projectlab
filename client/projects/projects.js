@@ -49,7 +49,7 @@ export const Projects = props => {
         <Popup
           trigger={
             <button id='steppr' className='project-list'>
-              <h2 className='project-title'>steppr.io</h2>
+              <h2 className='project-title'>STEPPR.IO</h2>
             </button>
           }modal>
           {close => (
@@ -88,7 +88,7 @@ export const Projects = props => {
         <Popup
           trigger={
             <button id='sockr' className='project-list'>
-              <h2 className='project-title'>Sockr</h2>
+              <h2 className='project-title'>SOCKR</h2>
             </button>
           }modal>
           {close => (
