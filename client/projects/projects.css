@@ -310,6 +310,11 @@
   }
 }
 
+@media only screen and (max-width: 900px) {
+  .close {
+    left: 80vw;
+  }
+}
 
 @media only screen and (max-width: 658px) {
   .project-list {
