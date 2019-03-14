@@ -7,7 +7,7 @@
   align-items: center;
   justify-content: center;
   margin-top: 1.5em;
-  background-color: #db651c;
+  background: url('/src/quote-bg.png');
 }
 
 .social-media-icon {

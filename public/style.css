@@ -38,7 +38,7 @@ button:hover {
 
 #steppr {
   background-size: 18em;
-  background-image: url('./src/steppr_black.png');
+  background-image: url('./src/steppr-bg.png');
 }
 
 #sockr {
@@ -46,7 +46,7 @@ button:hover {
 }
 
 #jamspace {
-  background-image: url('https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/467064/1160/772/m1/fpnw/wm1/i0435-.jpg?1430378113&s=49e6a55f98b02e938593beadf51f7a9b');
+  background: linear-gradient(0deg, #C12B45 -100%, #DB6C1E 100%);
 }
 
 #steppr-modal {
@@ -64,5 +64,5 @@ button:hover {
 
 #jamspace-modal {
   outline: 20em solid #3c3e42;
-  background-image: url('https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/467064/1160/772/m1/fpnw/wm1/i0435-.jpg?1430378113&s=49e6a55f98b02e938593beadf51f7a9b');
+  background: linear-gradient(0deg, #C12B45 0%, #DB6C1E 100%);
 }
