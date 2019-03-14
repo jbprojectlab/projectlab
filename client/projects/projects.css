@@ -224,6 +224,8 @@
   .project-description {
     min-height: 50vh;
     height: 67vh;
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
     margin-left: 0vw;
     padding-top: 4em;
     bottom: 0;
