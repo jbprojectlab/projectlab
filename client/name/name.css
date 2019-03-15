@@ -14,6 +14,7 @@
   color: white;
   display: flex;
   margin-top: .6em;
+  margin-bottom: 0;
   font-size: 2.5em;
   font-weight: lighter;
   text-shadow: -1px 0 #db651c, 0 1px #db651c, 1px 0 #db651c, 0 -1px #db651c;
@@ -43,8 +44,7 @@
   }
 
   #title {
-    padding-top: 1.5em;
-    margin-bottom: 2.4em;;
+    padding-top: .25em;
     font-size: 1.2em;
   }
 }
