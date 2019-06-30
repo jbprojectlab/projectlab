@@ -14,7 +14,6 @@ const Main = () => {
     <div id='main'>
       <Name />
       <Quote />
-      <About />
       <ProjectsHeader />
       <Projects />
       <Contact />
