@@ -1,11 +1,15 @@
 {
   presets: [
-    'react',
-    ['env', {
-      'targets': {
-        'browsers': ['last 2 versions']
+    [
+      "@babel/preset-env",
+      {
+        modules: false
       }
-    }],
-    'stage-2'
+    ],
+    "@babel/preset-react"
+  ],
+  plugins: [
+    "react-hot-loader/babel",
+    "@babel/plugin-proposal-class-properties"
   ]
 }

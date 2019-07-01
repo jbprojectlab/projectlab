@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'Paloseco';
+  src: url('../fonts/paloseco-medium.ttf') format('truetype');
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Paloseco-Light';
+  src: url('../fonts/paloseco-light.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Paloseco', 'Paloseco-Light';
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  background-color: rgb(230,246,247, 0.5);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+svg {
+  margin-right: 1.2em;
+}
+
+button:focus {
+  outline:0;
+}
+
+button:hover {
+  box-shadow: 0px 0px 6px #db651c;
+}
+
+#steppr {
+  background-size: 18em;
+  background-image: url('../img/steppr-bg.png');
+}
+
+#sockr {
+  background-image: url('https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX9878837.jpg');
+}
+
+#jamspace {
+  background: linear-gradient(0deg, #C12B45 -100%, #DB6C1E 100%);
+}
+
+#steppr-modal {
+  outline: 20em solid #db651c;
+  background-image-size: 300px;
+  background-image: url('../img/steppr_black.png');
+}
+
+#sockr-modal {
+  outline: 20em solid #3c3e42;
+  background-size: cover;
+  background-position: 50%;
+  background-image: url('../img/sockr-modal-background.jpg');
+}
+
+#jamspace-modal {
+  outline: 20em solid #3c3e42;
+  background: linear-gradient(0deg, #C12B45 0%, #DB6C1E 100%);
+}
