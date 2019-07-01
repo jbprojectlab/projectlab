@@ -4,13 +4,32 @@ Hey good people welcome to my project lab -- feel free to get in touch if you wa
 
 ## Setup
 
-### MacOS/Linux
+## Building and running on localhost
 
-* `npm install`
-* `npm start`
+First install dependencies:
 
-### Windows
+```sh
+npm install
+```
 
-* `npm install`
-* `npm run build-watch` to start the webpack process
-* Open another terminal window; from there, `npm run start-server` to start the server process
+To run in hot module reloading mode:
+
+```sh
+npm start
+```
+
+To create a production build:
+
+```sh
+npm run build-prod
+```
+
+To create a development build:
+
+```sh
+npm run build-dev
+```
+
+## Running
+
+Open the file `dist/index.html` in your browser
