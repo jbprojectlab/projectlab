@@ -68,3 +68,11 @@ button:hover {
   outline: 20em solid #3c3e42;
   background: linear-gradient(0deg, #C12B45 0%, #DB6C1E 100%);
 }
+
+.grow {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+}

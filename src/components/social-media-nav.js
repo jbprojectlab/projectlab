@@ -9,13 +9,13 @@ export const SocialMediaNav = props => {
   return (
     <div id='social-media-nav'>
       <a href='https://www.linkedin.com/in/james-s-byrd/'>
-        <img id='linkedin-icon' className='social-media-icon' src={linkedInLogo}></img>
+        <img id='linkedin-icon' className='social-media-icon grow' src={linkedInLogo}></img>
       </a>
       <a href='https://github.com/jbprojectlab'>
-        <img id='github-icon' className='social-media-icon' src={githubLogo}></img>
+        <img id='github-icon' className='social-media-icon grow' src={githubLogo}></img>
       </a>
       <a href='https://medium.com/@jbprojectlab'>
-        <img id='medium-icon' className='social-media-icon' src={mediumLogo}></img>
+        <img id='medium-icon' className='social-media-icon grow' src={mediumLogo}></img>
       </a>      
     </div>
   )
